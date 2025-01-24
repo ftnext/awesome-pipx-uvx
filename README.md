@@ -16,3 +16,25 @@ Awesome example of `pipx run` or `uvx`
 * [Installing stand alone command line tools (Python Packaging User Guide)](https://packaging.python.org/en/latest/guides/installing-stand-alone-command-line-tools/)
 * Installation https://pipx.pypa.io/stable/installation/
 * Pre-installed on GitHub Action's environment (as of January 2025)
+
+## Use cases (ToC)
+
+* [Packaging](#Packaging)
+
+## Packaging
+
+Japanese: https://nikkie-ftnext.hatenablog.com/entry/pipx-run-make-easier-speech-recognition-release-from-codespaces
+
+### Build
+
+```shell
+$ uvx build
+$ pipx run build
+```
+
+### Publish
+
+```shell
+$ uvx twine upload dist/*
+$ pipx run twine upload dist/*
+```
