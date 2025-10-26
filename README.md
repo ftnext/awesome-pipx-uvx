@@ -20,6 +20,7 @@ Awesome example of `pipx run` or `uvx`
 ## Use cases (ToC)
 
 * [Packaging](#Packaging)
+* [Misc](#Misc)
 
 ## Packaging
 
@@ -37,4 +38,12 @@ $ pipx run build
 ```shell
 $ uvx twine upload dist/*
 $ pipx run twine upload dist/*
+```
+
+## Misc
+
+### QR code
+
+```shell
+$ uvx --from 'qrcode[pil]' qr "Some text" > qr.png
 ```
