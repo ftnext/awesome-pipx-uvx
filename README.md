@@ -46,4 +46,5 @@ $ pipx run twine upload dist/*
 
 ```shell
 $ uvx --from 'qrcode[pil]' qr "Some text" > qr.png
+$ pipx run --spec 'qrcode[pil]' qr "Some text" > qr.png
 ```
